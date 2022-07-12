@@ -10,7 +10,7 @@ public class HolaMundo {
     @Value("${app.message}")
     String message;
 
-    @GetMapping("/holaMundo")
+    @GetMapping("/hola")
     public String helloWorld() {
         System.out.println(message);
         return "Hola Mundo";
